@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700&display=swap');   
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+    * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --darkColor: white;
+    --lightColor: black;
+}
+ 
+
+    #navbar {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: var(--darkColor);
+    position: sticky;
+    top: 0;
+    width: 99vw;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+    z-index: 2;
+
+
+}
+
+#navbar>div:first-child {
+    width: 96%;
+
+
+}
+
+#navbar>div {
+    width: 65%;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#navbar>div>a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* font-weight: bold; */
+    font-size: 13px;
+    padding: 3px 9px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+
+#navbar>div:first-child>a:first-child {
+    background-color: #F5F5F5;
+    text-decoration: none;
+    color: #6C6C6C;
+    display: inline-block;
+    /* font-family: var(--ff-one); */
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 2px 7px;
+    padding: 1px 7px;
+    border-radius: 3px;
+}
+
+#navbar>div:first-child>a {
+    text-decoration: none;
+    color: #6C6C6C;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 2px 0px;
+    padding: 1px 7px;
+    border-radius: 3px;
+}
+
+#navbar>div:first-child {
+    margin: auto 20px;
+}
+
+#navbar>div:nth-child(2)>a {
+    padding: 0 0;
+    margin: 0 7px;
+    color: #857873;
+    font-family: sans-serif;
+    letter-spacing: 0.7px;
+    font-size: 12px;
+}
+
+#navbar>div:nth-child(2)>a:first-child {
+    margin-left: -212px;
+}
+
+#navbar>div:last-child>a {
+    padding: 0 0;
+    margin: 0 6px;
+}
+
+#navbar>div:first-child>a:hover {
+    background-color: gray;
+    color:white;
+}
+
+#navbar>div:last-child>a:hover {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+#navbar>div>a>img {
+    width: 99px;
+    height: 18px;
+    margin-right: 70px;
+}
+#navbar>div+div>a>i{
+    
+    margin-left: 100px;
+    margin-right: -180px;
+    font-size: 18px;
+}
