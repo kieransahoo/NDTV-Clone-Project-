@@ -1,16 +1,16 @@
-import navigator from "../components/navigator.js";
+import navigator from "../component/navigator.js";
 let nav = (document.querySelector("#navigator").innerHTML = navigator());
 
-import functionalities from "../components/functionalities.js";
+import functionalities from "../component/functionalities.js";
 let fun = (document.querySelector("#functionalities").innerHTML =
   functionalities());
 
-import { categories, categoriesButton } from "../components/categories.js";
+import { categories, categoriesButton } from "../component/categories.js";
 let cat = (document.querySelector("#categories").innerHTML = categories());
 
 categoriesButton();
 
-import { append1 } from "../components/fetch.js";
+import { append1 } from "../component/fetch.js";
 
 let data1 = [
   {
