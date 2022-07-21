@@ -30,8 +30,10 @@ img{
     display: flex;
 }
 #Trend_News{
-    width: 45%;
+    width: 37%;
     cursor: pointer;
+    margin-left: 12px;
+    padding-top: 10px;
 }
 #Trend_News p:hover{
   color: rgb(113, 113, 207);
@@ -40,7 +42,14 @@ img{
 #Trend_News p{
 padding-left: 10px; 
 font-size: 20px;
-font-weight: bolder;
+font-weight: 600;
+margin-bottom: 10px;
+line-height: 18px;
+color: rgb(65, 65, 65);
+}
+hr{
+  margin-bottom: 15px;
+  margin-top: 10px;
 }
 #trend{
     display: flex;
@@ -53,9 +62,13 @@ font-weight: bolder;
     text-align: center;
     margin-left: 50px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 h4{
     padding-top: 5px;
+}
+h1{
+margin-left: 15px;
 }
 
   .back-to-top {

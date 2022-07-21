@@ -1,3 +1,7 @@
+import {homeNavbar,particularNavbar} from "../component/navbar.js"
+
+document.getElementById("navbar").innerHTML = particularNavbar();
+
 var x;
 
 getData();
@@ -15,7 +19,11 @@ async function getData(){
 
      x = data.news[0].articles
 
+
+     console.log(x)
+
     append(x);
+    append1(x)
 
 
 
@@ -68,25 +76,25 @@ function append(data){
 
 
 
-var y;
+// var y;
 
-getDataTrend();
+// getDataTrend();
 
 
-async function getDataTrend(){
+// async function getDataTrend(){
 
-    let url =`https://newsapi.org/v2/top-headlines?country=in&apiKey=14993370fd314a3fb8077a38a89169f1`;
+//     let url =`https://newsapi.org/v2/top-headlines?country=in&apiKey=14993370fd314a3fb8077a38a89169f1`;
 
-    let res = await fetch(url);
+//     let res = await fetch(url);
 
-    let data = await res.json();
+//     let data = await res.json();
     
-    console.log(data.articles)
-     y = data.articles
+//     console.log(data.articles)
+//      y = data.articles
 
-    append1(y);
+//     append1(y);
 
-}
+// }
 
 
 function append1(data){
@@ -101,15 +109,16 @@ function append1(data){
         div.id = "trend";
 
         let img = document.createElement('img');
-        img.src = el.urlToImage;
-        img.style.height = "40px"
+        img.src = el.image_url;
+        img.style.height = "45px"
 
      
 
         let p = document.createElement('p');
-        p.innerText = el.title;
-        p.style.fontSize = "12px"
+        p.innerText = el.headline;
+        p.style.fontSize = "14px"
         p.style.fontFamily ="sans-serif"
+   
 
        
         let h = document.createElement('hr');
