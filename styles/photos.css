@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#container{
+    width: 70%;
+}
+
+#f1{
+    /* border: 1px solid; */
+    position: relative;
+}
+
+#f1>img{
+    width: 100%;
+    
+}
+#f1-div{
+    margin-top: -120px;
+    padding: 24px;
+
+}
+#f1>div>button{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+#f1>div>h2{
+    color: white;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+#f2>div{
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#f2{
+margin-top: 28px;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+/* overflow: scroll; */
+gap: 16px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 8px;
+}
+.cat-date{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 12px;
+    font-weight: bold;
+    margin-top: auto;
+    font-size: 14px;
+}
+.card>img{
+    width: 100%;
+    border-radius: 8px  8px 0px 0px ;
+}
+.card>h3{
+    padding: 12px;
+}
+
+.category-div{
+    margin-top: 40px;
+}
+.category{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* overflow: scroll; */
+    gap: 16px;
+}
+#ad{
+    width: 25%;
+    margin-top: 40px;
+}
+#ad>div{
+    margin-bottom: 28px;
+}
+#ad>div>img{
+    width: 100%;
+}
