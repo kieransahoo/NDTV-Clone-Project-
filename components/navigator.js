@@ -3,6 +3,6 @@ let navigator = () => {
     <h3>></h3>
     <h3>Trending</h3>
     <h3>></h3>
-    <h3>Most Popular</h3>`;
+    <h3 id="mP">Most Popular</h3>`;
 };
 export default navigator

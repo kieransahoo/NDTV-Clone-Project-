@@ -5,6 +5,9 @@ import functionalities from "../components/functionalities.js";
 let fun = (document.querySelector("#functionalities").innerHTML =
   functionalities());
 
+  import {particularNavbar} from "../components/navbar.js";
+  let patNav = document.querySelector("#navbar").innerHTML=particularNavbar();
+
 import { categories, categoriesButton } from "../components/categories.js";
 let cat = (document.querySelector("#categories").innerHTML = categories());
 
@@ -447,6 +450,8 @@ mR.addEventListener("click", function () {
   mostRated(data);
 });
 let mostRated = (data) => {
+  document.getElementById("mP")
+.innerText="Most Watched"
 data.sort((a, b) => {
 return b.read-a.read
   });

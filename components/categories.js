@@ -14,7 +14,7 @@ let categoriesButton = () =>{
     let all = document.querySelector("#all");
     all.addEventListener("click",alll)
     function alll(){
-      window.location.href="index.html"
+      window.location.href="trending.html"
     }
   
     let news = document.querySelector("#news");

@@ -1,0 +1,60 @@
+#title, #des{
+    margin-left:300px;
+    margin-top: 10px;
+    width:50%;
+  
+
+}
+#title>h1{
+    font-size: 40px;
+    font-style: italic;
+}
+#title>p{
+    margin-top: 15px;
+    font-size:25px;
+}
+#image{
+  
+width:850px;
+    margin-top: 50px;
+    margin-left: 470px;
+}
+#image>img{
+    width:850px;
+    height: 500px;
+}
+#details{
+
+    width:45%;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+#details>p{
+    font-size: 20px;
+    padding:10px;
+  
+}
+#sideImage>img{
+    width:300px
+  }
+   #extremeRight{
+    margin-left:-450px;
+    margin-top: 130px;
+
+    width:300px
+  }
+  #extremeRight>div>p{
+    margin-top: 0px;
+  }
+  #extremeRight>div{
+    margin-bottom:20px
+  } 
+ #main{
+    display: flex;
+  }
+  
+  #cont{
+    display: flex;
+    width:60%;
+   
+  }

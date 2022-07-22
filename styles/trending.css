@@ -34,8 +34,13 @@
   }
   #categories {
     width: 900px;
-  
+    height:50px;
+    display: flex;
+   
+    align-items: center;
+  /* border: 1px solid red; */
     background-color: #f7f9fb;
+    margin-top:20px
   }
   /* #body{
   
@@ -58,11 +63,11 @@
     /* border: 2px solid maroon; */
   }
   #head > p {
-    margin-top: -15px;
+    margin-top: 5px;
     /* border: 2px solid maroon; */
   }
   #head > hr {
-    margin-top: -8px;
+    margin-top: 10px;
   
   }
   #fb {
@@ -73,10 +78,14 @@
     margin-left: 10px;
   }
   #social > p {
+    margin-top: 9px;
     display: inline-block;
+    /* border: 1px solid green; */
   }
   #social > a > img:nth-child(2),   #social > a > img:last-child {
     padding-left: 10px;
+    height: 15px;
+    width:27px
   }
 
   #eye {
@@ -88,6 +97,7 @@
   #line2 {
     display: inline-block;
     margin-left: 30px;
+  
   }
   #count{
     display: inline;
@@ -102,7 +112,7 @@
     margin: auto;
 display: flex;
   }
-  #footer{
+  /* #footer{
     background-color: #fafbfa;
     height:200px;
 
@@ -116,18 +126,20 @@ display: flex;
 
   }
   #adv{
+    margin-top: 80px;
     text-align: center;
+    margin-bottom: 20px;
   }
 #copy{
  text-align: center;
-}
+} */
 #main{
   display: flex;
 }
 #sideImage>img{
   width:300px
 }
-#extremeRight{
+ #extremeRight{
   margin-right:250px;
   margin-top: 60px;
   
@@ -138,4 +150,4 @@ display: flex;
 }
 #extremeRight>div{
   margin-bottom:20px
-}
+} 
