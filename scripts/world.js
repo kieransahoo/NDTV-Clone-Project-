@@ -1,4 +1,4 @@
-import {homeNavbar,particularNavbar} from "../component/navbar.js"
+import {homeNavbar,particularNavbar} from "../components/navbar.js"
 
 document.getElementById("navbar").innerHTML = particularNavbar();
 
