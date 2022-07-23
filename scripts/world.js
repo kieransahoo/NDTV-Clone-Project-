@@ -2,6 +2,11 @@ import {homeNavbar,particularNavbar} from "../components/navbar.js"
 
 document.getElementById("navbar").innerHTML = particularNavbar();
 
+
+import {footer} from "../components/footer.js";
+
+document.getElementById("footer").innerHTML = footer();
+
 var x;
 
 getData();
