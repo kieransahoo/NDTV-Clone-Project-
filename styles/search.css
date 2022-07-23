@@ -1,0 +1,75 @@
+  .middle {
+      position: absolute;
+      margin-top: 24px;
+      margin-left: 622px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+  }
+
+  .input {
+      width: 20px;
+      height: 20px;
+      background: none;
+      border-radius: 20px;
+      border: 2px solid #c3c3c3;
+      outline: none;
+      transition: width .4s ease-in-out, border-radius .8s ease-in-out, padding 0.2s;
+      transition-delay: 0.4s;
+      color: #957873;
+      font-size: 16px;
+
+  }
+
+  .inclicked {
+      width: 256px;
+      border-radius: 3;
+      padding: 0px 1rem;
+  }
+
+  .btn {
+      position: absolute;
+      width: 23px;
+      height: 41px;
+      top: 0px;
+      right: 0;
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+
+
+  }
+
+  .btn::before {
+      content: '';
+      width: 2px;
+      height: 9px;
+      background: #c3c3c3;
+      position: absolute;
+      transform: rotate(-45deg);
+      bottom: 17px;
+      right: -2px;
+      transition: 0.3s;
+  }
+
+  .close::after,
+  .close::before {
+      content: '';
+      /* border-radius: 35px; */
+      width: 2px;
+      height: 21px;
+      background: #c3c3c3;
+      position: absolute;
+      bottom: 21px;
+      right: 28px;
+
+  }
+
+  .close::before {
+      transform: rotate(-45deg);
+  }
+
+  .close::after {
+      transform: rotate(45deg);
+  }

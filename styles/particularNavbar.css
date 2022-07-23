@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700&display=swap');   
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700&display=swap');
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
 
-    * {
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -12,9 +12,9 @@
     --darkColor: white;
     --lightColor: black;
 }
- 
 
-    #navbar {
+
+#navbar {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -114,7 +114,7 @@
 
 #navbar>div:first-child>a:hover {
     background-color: gray;
-    color:white;
+    color: white;
 }
 
 #navbar>div:last-child>a:hover {
@@ -127,8 +127,9 @@
     height: 18px;
     margin-right: 70px;
 }
-#navbar>div+div>a>i{
-    
+
+#navbar>div+div>a>i {
+
     margin-left: 100px;
     margin-right: -180px;
     font-size: 18px;

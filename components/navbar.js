@@ -1,4 +1,4 @@
-let homeNavbar=()=>{
+let homeNavbar = () => {
     return ` <div>
     <a href="index.html">NDTV</a>
     <a href="">हिंदी न्यूज़</a>
@@ -38,8 +38,8 @@ let homeNavbar=()=>{
 </div>`
 }
 
-let particularNavbar=()=>{
-    return`<div id="navbar">
+let particularNavbar = () => {
+    return `<div id="navbar">
     <div>
         <a href="">NDTV</a>
         <a href="">हिंदी न्यूज़</a>
@@ -71,8 +71,8 @@ let particularNavbar=()=>{
         <a href="/offbeat.html">offbeat</a>
         <a href="">stock market</a>
         <a href="image.html">photos</a>
-        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+        <a href="search.html" ><i class="fa-solid fa-magnifying-glass"></i></a>
     </div>`
 }
 
-export {homeNavbar,particularNavbar};
+export { homeNavbar, particularNavbar };

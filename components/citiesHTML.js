@@ -1,5 +1,5 @@
-let filterFun=()=>{
-     return` <h1 class="heading">Cities</h1>
+let filterFun = () => {
+     return ` <h1 class="heading">Cities</h1>
        
      <select  id="changeName">
          <option value="">Select Your Option Here</option>
@@ -40,8 +40,8 @@ let filterFun=()=>{
      </select>`
 }
 
-let container=()=>{
-     return`   <div id="treadingNews">
+let container = () => {
+     return `   <div id="treadingNews">
 
      </div>
      <div id="midNews">
@@ -50,4 +50,4 @@ let container=()=>{
      <div id="rightSideNews">`
 }
 
-export {filterFun,container};
+export { filterFun, container };
