@@ -1,6 +1,12 @@
-import {particularNavbar} from "../components/navbar.js"
+import {particularNavbar} from "../components/navbar.js";
+import {footer} from "../components/footer.js"
 
-document.querySelector("#nav").innerHTML= particularNavbar()
+document.querySelector("#foot").innerHTML= footer()
+
+document.querySelector("#nav").innerHTML= particularNavbar();
+
+// var logo = document.querySelector("#logo").src="./components\ndtv-photos.svg"
+// console.log(logo)
 
 
 let featured = [
@@ -179,6 +185,33 @@ let ad = [
         
     }
 ]
+
+let append = (data) =>{
+    data.forEach(function(elem){
+        let card = document.createElement("div")
+        card.className="card"
+        
+        let image = document.createElement('img')
+        image.src = elem.image;
+    
+        let title = document.createElement("h3")
+        title.innerText = elem.title
+    
+        let div1 = document.createElement("div")
+        div1.style.color="#666766"
+        div1.className="cat-date"
+        let category = document.createElement("p")
+        category.innerText = elem.category;
+    
+        let date = document.createElement("p")
+        date.innerText = elem.Date
+        div1.append(category,date)
+        card.append(image,title,div1)
+        document.querySelector("#entertainment").append(card)
+    })
+}
+append(entertainment)
+
 
 featured.forEach(function(elem){
     let card = document.createElement("div")
