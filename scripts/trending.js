@@ -5,6 +5,9 @@ import functionalities from "../components/functionalities.js";
 let fun = (document.querySelector("#functionalities").innerHTML =
   functionalities());
 
+import { particularNavbar } from "../components/navbar.js";
+let patNav = (document.querySelector("#navbar").innerHTML = particularNavbar());
+
 import { categories, categoriesButton } from "../components/categories.js";
 let cat = (document.querySelector("#categories").innerHTML = categories());
 
@@ -148,7 +151,7 @@ let data1 = [
 append1(data1);
 let append = (data) => {
   let body = document.getElementById("body");
- body.innerHTML=""
+  body.innerHTML = "";
   data.forEach((el) => {
     let card = document.createElement("div");
     card.setAttribute("id", "card");
@@ -162,11 +165,11 @@ let append = (data) => {
     let head = document.createElement("div");
     head.setAttribute("id", "head");
     let des = document.createElement("h3");
-    des.innerText = el.description;
-    des.addEventListener("click",function(){
-      newsDetails(el)
-    })
-   
+    des.innerText = el.title;
+    des.addEventListener("click", function () {
+      newsDetails(el);
+    });
+
     let date = document.createElement("p");
     date.innerText = "Updated :" + " " + el.publishedAt;
     let line = document.createElement("hr");
@@ -210,18 +213,15 @@ let append = (data) => {
     eyeImg.setAttribute("id", "eye");
 
     let count = document.createElement("p");
-    count.setAttribute("id","count")
-    count.innerText = el.read
+    count.setAttribute("id", "count");
+    count.innerText = el.read;
 
-
-
-    social.append(h1, fb, twitter, whatsap, line2, eyeImg,count);
+    social.append(h1, fb, twitter, whatsap, line2, eyeImg, count);
     head.append(des, date, line, social);
     card.append(avatar, head);
     body.append(card);
   });
 };
-
 
 let data = [
   {
@@ -238,7 +238,7 @@ let data = [
     publishedAt: "2022-07-21T04:33:28Z",
     read: 6456,
     content:
-      "July 21, 2022 / 09:22 AM IST\r\nV K Vijayakumar, Chief Investment Strategist at Geojit Financial Services:\r\nWith around 8.5% rally from the June lows, Nifty is likely to consolidate around the present … [+821 chars]",
+      "July 21, 2022 / 09:22 AM IST\r\nV K Vijayakumar, Chief Investment Strategist at Geojit Financial Services:\r\nWith around 8.5% rally from the June lows, Nifty is likely to consolidate around the present At close, the Sensex was up 284.42 points or 0.51% at 55,681.95, and the Nifty was up 84.50 points or 0.51% at 16,605.30. About 1950 shares have advanced, 1302 shares declined, and 155 shares are unchanged.IndusInd Bank, Bajaj Finance, Tata Consumer Products, UPL and Bajaj Finserv were among the top Nifty gainers, while losers included Dr Reddy's Laboratories, Kotak Mahindra Bank, SBI Life Insurance, Cipla and Tech Mahindra.On the sectoral front, except pharma, all indices ended in the green, with PSU Bank, Oil & Gas, Power and Capital Goods indices rose 1-2 percent.BSE midcap index added 1.2 percent and smallcap index jumped 0.9 percent",
   },
   {
     source: { id: null, name: "Hindustan Times" },
@@ -253,7 +253,7 @@ let data = [
     publishedAt: "2022-07-21T04:22:57Z",
     read: 246,
     content:
-      "CBSE 10th Result 2022 Live Updates: Central Board of Secondary Education (CBSE) will announce board exam results for Class 10 students on its official website, cbseresults.nic.in and results.cbse.nic… [+2615 chars]",
+      "CBSE 10th Result 2022 Live Updates: Central Board of Secondary Education (CBSE) will announce board exam results for Class 10 students on its official website, cbseresults.nic.in and results.cbse.nicCentral Board of Secondary Education (CBSE) has announced Class 10 board examination results. Students who took exams can go to cbseresults.nic.in, results.cbse.nic.in, results.gov.in or cbse.digitallocker.gov.in to check their scores. Earlier today, the board announced Class 12 final examination results. CBSE results can be checked using school code, roll number and admit card ID.This year, CBSE conducted exams in 2 terms. For final results, in case of theory papers, 30% weightage has been given to term 1 and 70% to term 2. In practical, equal weightage has been given to both terms.In Class 12 results, the overall pass percentage stood at 92.71% and in Class 10, it is 94.40%.",
   },
   {
     source: { id: null, name: "The Indian Express" },
@@ -268,7 +268,7 @@ let data = [
     publishedAt: "2022-07-21T04:19:48Z",
     read: 2436,
     content:
-      "On the 53rd anniversary of the Apollo 11 lunar landing, NASA announced its shooting for a late August launch of its giant, new moon rocket.NASA will attempt the more than month-long lunar test flight… [+1704 chars]",
+      "On the 53rd anniversary of the Apollo 11 lunar landing, NASA announced its shooting for a late August launch of its giant, new moon rocket.NASA will attempt the more than month-long lunar test flight NASA officials assured reporters Wednesday that the problems have been resolved and that testing is almost complete. But they cautioned the launch dates could slip, depending on the volatile Florida weather and issues that might arise before the rocket is supposed to return to the pad on Aug. 18.“We’re going to be careful,” said Free, head of exploration systems development.At 322 feet (98 meters), the rocket and Orion capsule are taller than the Statue of Liberty.  If Orion’s trip to the moon and back goes well, astronauts could climb aboard in 2023 for a lunar loop-around and actually land in 2025.      Astronauts last explored the moon in 1972. The first of the 12 moonwalkers, Neil Armstrong and Buzz Aldrin, stepped onto the dusty gray surface on July 20, 1969, while Michael Collins orbited the moon.The 92-year-old Aldrin, the sole survivor of the three, noted the anniversary in a tweet: “Neil, Michael & I were proud to represent America as we took those giant leaps for mankind. It was a moment which united the world and America’s finest hour.”",
   },
   {
     source: { id: null, name: "The Indian Express" },
@@ -282,7 +282,7 @@ let data = [
     publishedAt: "2022-07-21T04:07:40Z",
     read: 5456,
     content:
-      "Narendra Modi; Amit Shah; Manmohan Singh; Mamata Banerjee cast votes. (PTI and Express Photos)\r\nExplained: How the President of India is electedOn July 18, elected MLAs and MPs across the country wil… [+1614 chars]",
+      "Narendra Modi; Amit Shah; Manmohan Singh; Mamata Banerjee cast votes. (PTI and Express Photos)\r\nExplained: How the President of India is electedOn July 18, elected MLAs and MPs across the country wil Congratulating President-elect Droupadi Murmu on her victory, Union Minister Anurag Thakur extended his gratitude to the members of the UPA who voted for her. “They rose above their party for the welfare of the country. Seeing a tribal woman rise to the highest post is a welcome sight,” he told ANI. When the counting of votes concluded, it was clear that Murmu’s spectacular win had also been helped by some cross-voting — proof of division and confusion in Opposition ranks NDA Presidential candidate Droupadi Murmu on Thursday scripted history by becoming the country’s first tribal President defeating Opposition nominee Yashwant Sinha. Murmu, former Governor of Jharkhand, trounced challenger and Opposition candidate Yashwant Sinha, securing 64.03 per cent of the total votes polled.",
   },
   {
     source: { id: null, name: "NDTV News" },
@@ -297,7 +297,7 @@ let data = [
     publishedAt: "2022-07-21T03:45:40Z",
     read: 1456,
     content:
-      "Former Pakistan pacer Shoaib Akhtar lauded India wicketkeeper-batter Rishabh Pant, saying that the youngster is a fearless cricketer, who has got variety of shots in his arsenal to trouble the opposi… [+1341 chars]",
+      "Former Pakistan pacer Shoaib Akhtar lauded India wicketkeeper-batter Rishabh Pant, saying that the youngster is a fearless cricketer, who has got variety of shots in his arsenal to trouble the opposi Former Pakistan pacer Shoaib Akhtar lauded India wicketkeeper-batter Rishabh Pant, saying that the youngster is a fearless cricketer, who has got variety of shots in his arsenal to trouble the opposition. Pant has been receiving huge praise from several current and former cricketers, following his brilliant knock against England in the third and final ODI on Sunday. He hit 125 not out to help India chase down the 260-run target with just under eight overs to spare. While analysing his performance, Akhtar said that Pant single-handedly won the series for India.Rishabh Pant is a fearless cricketer. He has the cut shot, pull shot, reverse sweep, slog sweep and paddle sweep. He won the (Test) match in Australia, he won the match here (in England) and took India to a series victory single-handedly, Akhtar said in a video uploaded on his YouTube channel.",
   },
   {
     source: { id: null, name: "Hindustan Times" },
@@ -522,21 +522,24 @@ let data = [
   },
 ];
 
-append(data)
+append(data);
 
 let mR = document.getElementById("mR");
 mR.addEventListener("click", function () {
   mostRated(data);
 });
 let mostRated = (data) => {
-  console.log(Math.random()*10000);
-data.sort((a, b) => {
-return b.read-a.read
+  document.getElementById("mP").innerText = "Most Watched";
+  data.sort((a, b) => {
+    return b.read - a.read;
   });
-append(data);
+  append(data);
 };
 
-
-let  newsDetails = (el) =>{
+let newsDetails = (el) => {
   console.log(el);
-}
+  //  let data = JSON.parse(localStorage.getItem("newsData")) || [];
+  //  data.push(el)
+  localStorage.setItem("newsData", JSON.stringify(el));
+  window.location.href = "newsDetails.html";
+};

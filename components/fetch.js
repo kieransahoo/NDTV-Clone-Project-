@@ -17,7 +17,7 @@
       let head = document.createElement("div");
       head.setAttribute("id", "head");
       let des = document.createElement("h3");
-      des.innerText = el.description;
+      des.innerText = el.title;
      
       let date = document.createElement("p");
       date.innerText = "Updated :" + " " + el.publishedAt;

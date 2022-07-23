@@ -1,0 +1,109 @@
+#India_News_Element{
+    display: flex;
+    height: 160px;
+    width: 60%;
+    border: 1px solid rgb(210, 206, 206);
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    border-radius: 10px;
+    margin-left: 5%;
+    cursor: pointer;
+    overflow: hidden;
+    animation-name: ex;
+    animation-duration: 4s;
+}
+#India_News_Element:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    border: none;
+}
+img{
+    padding-top: 5px;
+    height: 120px;
+    border-radius: 8px;
+}
+#innerDiv{
+    margin-left: 15px;
+}
+#bigDiv{
+    display: flex;
+}
+#Trend_News{
+    width: 37%;
+    cursor: pointer;
+    margin-left: 12px;
+    padding-top: 10px;
+}
+#Trend_News p:hover{
+  color: rgb(113, 113, 207);
+  transition-delay: 50ms;
+}
+#Trend_News p{
+padding-left: 10px; 
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 10px;
+line-height: 18px;
+color: rgb(65, 65, 65);
+}
+hr{
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+#trend{
+    display: flex;
+}
+#T{
+    height: 30px;
+    width: 140px;
+    background-color: rgb(240, 239, 239);
+    color: black;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+h4{
+    padding-top: 5px;
+}
+h1{
+margin-left: 15px;
+}
+
+  .back-to-top {
+    position: fixed;
+    right: 4rem;
+    bottom: 8rem;
+    border-radius: 70%;
+    background: white;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    padding: 1rem;
+    border: 1px solid rgb(219, 219, 219);
+    cursor: pointer;
+    opacity: 100%;
+    transition: opacity 0.5s;
+  }
+  
+  .back-to-top:hover {
+    opacity: 100%;
+  }
+  
+  .hidden {
+    opacity: 0%;
+  }
+  
+  .back-to-top-icon {
+    width: 1.5rem;
+    height: 1.3rem;
+    color: black;
+  }
+  
+  .progress-bar {
+    height: 1rem;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
