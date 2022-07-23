@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live TV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/livetv.css">
+    <link rel="stylesheet" href="./styles/particularNavbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body>
+    <div id="nav"></div>
+    <div id="top-nav"></div>
+    <div id="main">
+        <div id="container">
+            <p><button id="live-btn">LIVE</button></p>
+            <!-- Live Tv Section -->
+            <div id="live-div">
+            <div id="play">
+                <h3>Now Live | Coming Up at 3:30 PM IST - The Gadgets 360 Show</h3>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/MN8p-Vrn6G0?autoplay=1&mute=1&controls=0" title="NDTV India Live TV: Arpita Mukherjee | Bengal SSC Scam | ED Raid | Excise Policy | BJP Protest" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            <div id="rhs">
+                <select name="" id="filterVideo">
+                    <option value="mv">Most Viewed</option>
+                    <option value="ra">Recently Added</option>
+                    <option value="vs">Video Specials</option>
+                </select>
+                <div id="rhs-cont"></div>
+            </div>
+            </div>
+            <!-- video nav  -->
+            <div id="category-navbar">
+                <a href="./livetv.html">Top Videos</a>
+                <a href="./livetv.html">Latest</a>
+                <a href="./livetv.html">Category</a>
+                <a href="./livetv.html">Channel</a>
+                <a href="./livetv.html">Shows</a>
+                <a href="./livetv.html">NDTV Classics</a>
+                <a href="./livetv.html">Shot on Samsung</a>
+                <button>Live TV</button>
+            </div>
+            <!-- Fetured Videos Section -->
+            <h2 class="category-heading">Featured Videos</h2>
+            <div id="featured" class="category"></div>
+            <!-- Top Shows Section  -->
+            <h2 class="category-heading">Top-Shows Videos</h2>
+            <div id="top-shows" class="category"></div>
+            <!-- Most Watched Video -->
+            <h2 class="category-heading">Most-Watched</h2>
+            <div id="most-watched" class="category"></div>
+            <!-- Just Added video -->
+            <h2 class="category-heading">Just Added Video</h2>
+            <div id="just-added" class="category"></div>
+        </div>
+        <div id="promo-ad"></div>
+       
+    </div>
+    <div id="foot"></div>
+</body>
+</html>
+<script src="./scripts/livetv.js" type="module"></script>

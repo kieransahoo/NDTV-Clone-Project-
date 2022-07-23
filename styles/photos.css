@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,9 @@
 }
 #container{
     width: 70%;
+}
+#featured>h2{
+    margin : 24px 0px
 }
 
 #f1{
@@ -93,4 +97,61 @@ gap: 16px;
 }
 #ad>div>img{
     width: 100%;
+}
+
+#latest{
+    margin-top: 40px;
+    display: flex;
+    gap: 12px;
+}
+#l{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#l1,#l1>img,#l2,#l3{
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#l1-div{
+    margin-top: -140px;
+    color: white;
+    padding: 16px;
+}
+#l1-div>button{
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    padding: 4px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#l1>img{
+    width: 100%;
+}
+#l2>img,#l3>img{
+    width: 40%;
+    border-radius: 8px 0px 0px 8px;
+}
+#l2,#l3{
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+#l2>div,#l3>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#l2>div>p{
+    color: green;
+    font-weight: bold;
+}
+#l3>div>p{
+    color: #dca62f;
+    font-weight: bold;
 }
