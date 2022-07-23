@@ -1,7 +1,7 @@
   .middle {
       position: absolute;
       margin-top: 24px;
-      margin-left: 622px;
+      margin-left: 516px;
       left: 50%;
       transform: translate(-50%, -50%);
 
@@ -22,7 +22,7 @@
   }
 
   .inclicked {
-      width: 256px;
+      width: 200px;
       border-radius: 3;
       padding: 0px 1rem;
   }

@@ -2,6 +2,8 @@ import { getData, displayTreadingNews, displaymidNews } from "../components/citi
 
 import { filterFun, container } from "../components/citiesHTML.js"
 
+// import readNews from "../components/read-News.js";
+
 import { homeNavbar, particularNavbar } from "../components/navbar.js";
 
 let navbar1 = document.getElementById("navbar")
@@ -30,10 +32,11 @@ let className1 = "inner"
 let container3 = document.getElementById("rightSideNews")
 let className2 = "innerBox"
 
+let data1;
 let data4;
 let main = async () => {
   let res1 = await getData(url1)
-  let data1 = res1.news[0].articles
+data1 = res1.news[0].articles
 
   let res2 = await getData(url2)
   let data2 = res2.news[0].articles
@@ -104,5 +107,7 @@ async function displayChange() {
 
 }
 
+
+// readNews(data1,"citiesNews.html")
 
 

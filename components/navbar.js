@@ -19,13 +19,13 @@ let homeNavbar = () => {
 </div>
 <div>
     <a href="index.html"><img src="https://drop.ndtv.com/homepage/images/ndtvlogo23march.png" alt="NDTV logo" /></a>
-    <a href="liveTv.html">Live tv</a>
-    <a href="ndtvLatest.html">latest</a>
-    <a href="">treading</a>
+    <a href="livetv.html">Live tv</a>
+    <a href="latest.html">latest</a>
+    <a href="">trending</a>
     <a href="">india</a>
     <a href="">opinion</a>
     <a href="">weather</a>
-    <a href="">cities</a>
+    <a href="cities.html">cities</a>
     <a href="">world</a>
     <a href="">offbeat</a>
     <a href="">stock market</a>
@@ -34,7 +34,7 @@ let homeNavbar = () => {
     </a>
     <a href="userLogin.html"><i class="fa-brands fa-facebook-square"></i></a>
     <a href=""><i class="fa-solid fa-bell"></i></a>
-    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+    <a href="search.html"><i class="fa-solid fa-magnifying-glass"></i></a>
 </div>`
 }
 
@@ -60,13 +60,13 @@ let particularNavbar = () => {
     </div>
     <div>
         <a href="index.html"><img src="https://drop.ndtv.com/homepage/images/ndtvlogo23march.png" alt="NDTV logo" /></a>
-        <a href="liveTv.html">Live tv</a>
-        <a href="ndtvLatest.html">latest</a>
-        <a href="">treading</a>
+        <a href="livetv.html">Live tv</a>
+        <a href="latest.html">latest</a>
+        <a href="">trending</a>
         <a href="">india</a>
         <a href="">opinion</a>
         <a href="">weather</a>
-        <a href="">cities</a>
+        <a href="cities.html">cities</a>
         <a href="/world.html">world</a>
         <a href="/offbeat.html">offbeat</a>
         <a href="">stock market</a>
