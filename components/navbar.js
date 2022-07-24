@@ -41,7 +41,7 @@ let homeNavbar = () => {
 let particularNavbar = () => {
     return `<div id="navbar">
     <div>
-        <a href="">NDTV</a>
+        <a href="./homepage.html">NDTV</a>
         <a href="">हिंदी न्यूज़</a>
         <a href="">Bussiness</a>
         <a href="">Movies</a>
@@ -59,7 +59,7 @@ let particularNavbar = () => {
         <a href="">Art</a>
     </div>
     <div>
-        <a href="index.html"><img src="https://drop.ndtv.com/homepage/images/ndtvlogo23march.png" alt="NDTV logo" /></a>
+        <a href="./homepage.html"><img src="https://drop.ndtv.com/homepage/images/ndtvlogo23march.png" alt="NDTV logo" /></a>
         <a href="livetv.html">Live tv</a>
         <a href="latest.html">latest</a>
         <a href="trending.html">trending</a>
