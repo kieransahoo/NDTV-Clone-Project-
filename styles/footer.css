@@ -9,6 +9,8 @@
   }
   #cont{
     margin: auto;
+    display: flex;
+    justify-content: center;
 
   }
   #adv{

@@ -62,15 +62,15 @@ let particularNavbar = () => {
         <a href="index.html"><img src="https://drop.ndtv.com/homepage/images/ndtvlogo23march.png" alt="NDTV logo" /></a>
         <a href="livetv.html">Live tv</a>
         <a href="latest.html">latest</a>
-        <a href="">trending</a>
-        <a href="">india</a>
+        <a href="trending.html">trending</a>
+        <a href="india.html">india</a>
         <a href="">opinion</a>
         <a href="">weather</a>
         <a href="cities.html">cities</a>
-        <a href="/world.html">world</a>
-        <a href="/offbeat.html">offbeat</a>
+        <a href="world.html">world</a>
+        <a href="offbeat.html">offbeat</a>
         <a href="">stock market</a>
-        <a href="image.html">photos</a>
+        <a href="photos.html">photos</a>
         <a href="search.html" ><i class="fa-solid fa-magnifying-glass"></i></a>
     </div>`
 }
