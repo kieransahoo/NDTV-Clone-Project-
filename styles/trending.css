@@ -112,27 +112,7 @@
     margin: auto;
 display: flex;
   }
-  /* #footer{
-    background-color: #fafbfa;
-    height:200px;
 
-  }
-  #cont>p{
-    padding-left:10px;
-   margin-left:9px
-  }
-  #cont{
-    margin: auto;
-
-  }
-  #adv{
-    margin-top: 80px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-#copy{
- text-align: center;
-} */
 #main{
   display: flex;
 }
