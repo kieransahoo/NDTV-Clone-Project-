@@ -24,5 +24,7 @@ HOME PAGE
 LIVE TV PAGE 
 ![Screenshot (4)](https://user-images.githubusercontent.com/101393428/180765681-309b9d1d-6e11-4569-bdc9-830311c44e32.png)
 
-TRENDING PAGE 
+TRENDING PAGE
+![Screenshot (6)](https://user-images.githubusercontent.com/101393428/180772135-916ba803-1299-47b8-acb6-a7d66b85cc8c.png)
+
 
