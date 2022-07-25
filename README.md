@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, Everyone</h1>
-<h3 align="center">Aspiring Full Stack Web Developer</h3>
+
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kieransahoo&label=Profile%20views&color=0e75b6&style=flat" alt="kieransahoo" /> </p>
 
