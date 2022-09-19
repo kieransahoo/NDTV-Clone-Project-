@@ -5,7 +5,11 @@
 
 - We team hot-wood recently worked on Clone Project which is a clone of ndtv news channel  [hot-wood-7345](https://ndtv-hot-wood-7345.netlify.app/)
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Features</h3>
+- Home page 
+- Live Tv page
+- Trending page
+
 <p align="left">
 </p>
 
