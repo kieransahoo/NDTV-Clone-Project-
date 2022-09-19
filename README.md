@@ -7,8 +7,10 @@
 
 <h3 align="left">Features</h3>
 - Home page 
-- Live Tv page
-- Trending page
+- Live News Section
+- Trending Page
+- World Page 
+- India Page
 
 <p align="left">
 </p>
@@ -31,4 +33,10 @@ LIVE TV PAGE
 TRENDING PAGE
 ![Screenshot (6)](https://user-images.githubusercontent.com/101393428/180772135-916ba803-1299-47b8-acb6-a7d66b85cc8c.png)
 
+<h3>Team Members<h3/>
+- Kiran Kumar Sahoo
+- Aman Sharma
+- Abhishek Karsh
+- Rahul Yadav
+- Sachin Choudhary
 
